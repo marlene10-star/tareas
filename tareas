@@ -1,0 +1,76 @@
+index.html:
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mis Tareas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 12px 18px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #3498db;
+            padding: 10px 16px;
+            border-radius: 6px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+        }
+
+        .enlace {
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>📝 Lista de Tareas</h1>
+    <ul>
+        <li>📚 Terminar tarea de matemáticas</li>
+        <li>🧪 Estudiar para el examen de química</li>
+        <li>📖 Leer el capítulo 4 de historia</li>
+    </ul>
+
+    <h2>🔗 Enlaces útiles</h2>
+    <div class="enlace">
+        <a href="https://pasteles-ae.webnode.mx/" target="_blank">🌐 Pasteles AE</a>
+    </div>
+    <div class="enlace">
+        <a href="https://vt.tiktok.com/ZShqpj9PT/" target="_blank">🎥 TikTok</a>
+    </div>
+</body>
+</html>
